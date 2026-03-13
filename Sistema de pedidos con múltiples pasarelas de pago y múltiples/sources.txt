@@ -1,0 +1,14 @@
+C:\Users\dulce\OneDrive\Escritorio\Sistema de pedidos con múltiples pasarelas de pago y múltiples\src\adapter\LegacyBankAdapter.java
+C:\Users\dulce\OneDrive\Escritorio\Sistema de pedidos con múltiples pasarelas de pago y múltiples\src\adapter\PaymentProcessor.java
+C:\Users\dulce\OneDrive\Escritorio\Sistema de pedidos con múltiples pasarelas de pago y múltiples\src\adapter\PaypalAdapter.java
+C:\Users\dulce\OneDrive\Escritorio\Sistema de pedidos con múltiples pasarelas de pago y múltiples\src\adapter\StripeAdapter.java
+C:\Users\dulce\OneDrive\Escritorio\Sistema de pedidos con múltiples pasarelas de pago y múltiples\src\bridge\MobileOrderSystem.java
+C:\Users\dulce\OneDrive\Escritorio\Sistema de pedidos con múltiples pasarelas de pago y múltiples\src\bridge\OrderSystem.java
+C:\Users\dulce\OneDrive\Escritorio\Sistema de pedidos con múltiples pasarelas de pago y múltiples\src\bridge\WebOrderSystem.java
+C:\Users\dulce\OneDrive\Escritorio\Sistema de pedidos con múltiples pasarelas de pago y múltiples\src\controller\OrderController.java
+C:\Users\dulce\OneDrive\Escritorio\Sistema de pedidos con múltiples pasarelas de pago y múltiples\src\external\LegacyBankSystem.java
+C:\Users\dulce\OneDrive\Escritorio\Sistema de pedidos con múltiples pasarelas de pago y múltiples\src\external\PaypalAPI.java
+C:\Users\dulce\OneDrive\Escritorio\Sistema de pedidos con múltiples pasarelas de pago y múltiples\src\external\StripeService.java
+C:\Users\dulce\OneDrive\Escritorio\Sistema de pedidos con múltiples pasarelas de pago y múltiples\src\fronted\FrontendApp.java
+C:\Users\dulce\OneDrive\Escritorio\Sistema de pedidos con múltiples pasarelas de pago y múltiples\src\model\Order.java
+C:\Users\dulce\OneDrive\Escritorio\Sistema de pedidos con múltiples pasarelas de pago y múltiples\src\service\OrderService.java
