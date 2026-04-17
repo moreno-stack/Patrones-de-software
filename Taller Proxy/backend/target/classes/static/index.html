@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proxy IA - Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app-shell">
+    <header>
+        <div>
+            <h1>Proxy IA</h1>
+            <p class="subtitle">Interfaz realista para enviar prompts y controlar cuota, rate limit y uso.</p>
+        </div>
+        <span id="planBadge" class="badge free">FREE</span>
+    </header>
+
+    <section class="top-grid">
+        <article class="status-card">
+            <h3>Plan actual</h3>
+            <strong id="planLabel">FREE</strong>
+            <p>Máximo 1000 tokens / mes</p>
+        </article>
+        <article class="status-card">
+            <h3>Tokens usados</h3>
+            <strong id="quotaText">0 / 1000</strong>
+            <div class="progress-bar">
+                <div id="quotaBar" class="progress-fill"></div>
+            </div>
+        </article>
+        <article class="status-card">
+            <h3>Rate limit</h3>
+            <strong id="rateText">5 requests/min</strong>
+            <p id="rateCountdown">Reset en 60s</p>
+        </article>
+    </section>
+
+    <section class="chat-panel">
+        <div class="chat-header">
+            <div>
+                <span class="assistant-badge">Asistente IA</span>
+                <h2>Chat en vivo</h2>
+            </div>
+            <p>Envía un prompt y recibe una respuesta clara y útil.</p>
+        </div>
+
+        <div id="chatMessages" class="messages"></div>
+
+        <div class="input-row">
+            <textarea id="promptInput" placeholder="Ej: Describe un plan de estudio para aprender Spring Boot..." rows="4"></textarea>
+            <button id="sendButton">Enviar</button>
+        </div>
+        <div class="input-footer">
+            <span>Estimado tokens: <strong id="tokenEstimate">0</strong></span>
+            <span class="tip">Consejo: usa frases claras para respuestas más útiles.</span>
+        </div>
+    </section>
+
+    <section class="stats-panel">
+        <h2>Historial de uso (últimos 7 días)</h2>
+        <div id="historyChart" class="chart"></div>
+    </section>
+</div>
+
+<div id="upgradeModal" class="modal hidden">
+    <div class="modal-content">
+        <h3>Cuota agotada</h3>
+        <p>Has alcanzado la cuota mensual. Simula un upgrade para continuar.</p>
+        <button id="upgradeButton">Actualizar a PRO</button>
+        <button id="closeModal">Cerrar</button>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
